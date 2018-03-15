@@ -293,7 +293,9 @@ public class SudokuSolver {
 		return true;
 	}
 
-	
+	/**
+	 * For testing purposes
+	 */
 	public static void main(String[] args) {
 		SudokuSolver game = new SudokuSolver();
 		game.set(0, 2, 8);
